@@ -47,3 +47,9 @@ print("how to find value in program how many time is exit to find use count :", 
 
 valueF = input("enter a any number to find the length of the string value :")
 print("your string value length is :", len(valueF))
+
+
+# find $ in this string
+
+findValue = input("find value is $")
+print(findValue.find("$"))
